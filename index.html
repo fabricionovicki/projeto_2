@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto II</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="./images/contacts.png" alt="Lista de Contatos">
+            <h1>Adicione seu contato</h1>
+        </header>
+        <form id="form">
+            <input type="text" id="nome-contato" required placeholder="Nome do Contato" />
+            <input type="number" id="numero-contato" required placeholder="(00) 9000-0000" />
+            <button type="submit">Adicionar +</button>
+        </form>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>
+                        <img src="./images/user.png" alt="Ícone Usuário">Nome
+                    </th>
+                    <th>
+                        <img src="./images/phone-call.png" alt="Ícone Telefone">Número de Contato
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
